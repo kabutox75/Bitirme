@@ -1,0 +1,26 @@
+interface Shape{
+
+void Shape(float a, float b);
+void setW(float a);
+void setH(float a);
+float getW();
+float getH();
+float area();
+
+};
+
+interface Rectangle : Shape{
+
+void Rectangle(float a, float b);
+float area();
+
+
+};
+
+interface Triangle : Shape{
+
+void Triangle(float a, float b);
+float area();
+
+
+};
